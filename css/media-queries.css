@@ -27,37 +27,49 @@ body {
         color: black;
     }
 
-    a {
+   div a {
         text-decoration: none;
-
-
     }
+
+    h1 {
+        text-align: center;
+        font-size: 4em;
+    }
+
 
     li a {
         display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 2% auto;
+        margin: 0 auto;
         font-size: 2em;
         align-content: center;
+
     }
+
+
 
     nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: auto;
+        align-items: center;
 
     }
 
+
+
+
     li {
         display: inline-block;
-        height: 50px;
-        width: 100%;
+        height: 60px;
+        width: 100vw;
         margin: 1em auto;
         background-color: lightgrey;
-        /*justify-content: center;
-        /*align-items: center;
+        text-align: center;
+
+
+
     }
 }
