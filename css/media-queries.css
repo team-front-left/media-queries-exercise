@@ -6,6 +6,7 @@
 body {
     width: 90%;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,7 +17,7 @@ body {
         background-color: lightblue;
         margin: 2% auto;
         color: black;
-        font-size: 3em;
+        font-size: 2.5em;
         border: 3px solid lightgray;
         text-align: center;
         display: flex;
@@ -35,6 +36,7 @@ body {
     h1 {
         text-align: center;
         font-size: 4em;
+        margin-bottom: .5em;
     }
 
 
@@ -59,26 +61,41 @@ body {
 
     }
 
-
-
-
     li {
-        display: inline-block;
-        height: 60px;
-        width: 100vw;
-        margin: 1em auto;
+
+        height: 7vh;
+        width: 90vw;
+
         background-color: lightgrey;
+
+        margin: 2% auto;
         text-align: center;
+        display: flex;
 
-
+        align-items: center;
 
     }
-    /*.nav-links {*/
-    /*    display: flex;*/
-    /*    flex-direction: column;*/
-    /*    margin: 0 100px 0 100px;*/
-    /*    width: 600px;*/
-    /*    align-items: center;*/
 
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    img {
+        width: 90vw;
+    }
+
+    h2 {
+        margin: 1em 0;
+    }
+
+    p {
+        margin-bottom: 5em;
+    }
+
+    footer p {
+        margin-bottom: -50px;
     }
 }
