@@ -68,7 +68,7 @@ body {
 
         background-color: lightgrey;
 
-        margin: 2% auto;
+        margin: 4% auto;
         text-align: center;
         display: flex;
 
@@ -85,6 +85,8 @@ body {
 
     img {
         width: 90vw;
+        /*height: 224px;*/
+        /*max-width: 100%;*/
     }
 
     h2 {
@@ -97,5 +99,13 @@ body {
 
     footer p {
         margin-bottom: -50px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 1em;
+        left: 0;
+        font-size: 40px;
+        margin: 1em;
     }
 }
