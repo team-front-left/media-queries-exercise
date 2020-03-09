@@ -7,7 +7,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
 
     .alert-info {
         width: 90%;
@@ -29,29 +29,35 @@ body {
 
     a {
         text-decoration: none;
+
+
     }
 
- nav {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
+    li a {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 2% auto;
+        font-size: 2em;
+        align-content: center;
+    }
 
- }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: auto;
 
- li {
-     display: inline-block;
-     height: 50px;
-     width: 100%;
-     margin: 1em auto;
-     background-color: lightgrey;
+    }
 
-
- }
-
-p
-{
-
-}
-
-
+    li {
+        display: inline-block;
+        height: 50px;
+        width: 100%;
+        margin: 1em auto;
+        background-color: lightgrey;
+        /*justify-content: center;
+        /*align-items: center;
+    }
 }
